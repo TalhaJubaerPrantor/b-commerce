@@ -10,26 +10,25 @@ using System.Windows.Forms;
 
 namespace Pts
 {
-    public partial class UserDashboard : Form
+    public partial class Tracker : Form
     {
-        public UserDashboard()
+        public Tracker()
         {
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Tracker t = new Tracker();
-            t.Show();
+            UserDashboard u=new UserDashboard();
+            u.Show();
         }
 
-
-        private void switchToAdmin_Click(object sender, EventArgs e)
+        private void seeLocation_Click(object sender, EventArgs e)
         {
             this.Hide();
-            firstPage f=new firstPage();
-            f.Show();
+            MapTrack m = new MapTrack();
+            m.Show();
         }
     }
 }

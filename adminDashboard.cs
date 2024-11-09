@@ -16,5 +16,24 @@ namespace Pts
         {
             InitializeComponent();
         }
+
+        private void switchToUser_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            firstPage f=new firstPage();
+            f.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            firstPage f = new firstPage();
+            f.Show();
+        }
     }
 }
