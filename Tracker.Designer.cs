@@ -69,6 +69,8 @@
             this.label22 = new System.Windows.Forms.Label();
             this.seeLocation = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -97,7 +99,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(263, 97);
+            this.button7.Location = new System.Drawing.Point(344, 95);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 6;
@@ -107,7 +109,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(344, 97);
+            this.button1.Location = new System.Drawing.Point(344, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
@@ -182,7 +184,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(263, 97);
+            this.button8.Location = new System.Drawing.Point(344, 97);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 7;
@@ -192,7 +194,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(344, 97);
+            this.button2.Location = new System.Drawing.Point(344, 68);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -267,7 +269,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(263, 97);
+            this.button9.Location = new System.Drawing.Point(344, 97);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 8;
@@ -277,7 +279,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(344, 97);
+            this.button3.Location = new System.Drawing.Point(344, 68);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 5;
@@ -352,7 +354,7 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(263, 97);
+            this.button10.Location = new System.Drawing.Point(344, 97);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 23);
             this.button10.TabIndex = 9;
@@ -362,7 +364,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(344, 97);
+            this.button4.Location = new System.Drawing.Point(344, 68);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 5;
@@ -511,11 +513,33 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(630, 110);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(172, 24);
+            this.label23.TabIndex = 15;
+            this.label23.Text = "Tracking Order No:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(794, 110);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(20, 24);
+            this.label24.TabIndex = 16;
+            this.label24.Text = "1";
+            // 
             // Tracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.seeLocation);
             this.Controls.Add(this.label22);
@@ -590,5 +614,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button seeLocation;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
     }
 }

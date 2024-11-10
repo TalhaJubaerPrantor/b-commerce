@@ -35,5 +35,10 @@ namespace Pts
             firstPage f = new firstPage();
             f.Show();
         }
+
+        private void adminDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
