@@ -61,6 +61,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.switchToAdmin = new System.Windows.Forms.Button();
+            this.logOut = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -383,11 +384,22 @@
             this.switchToAdmin.UseVisualStyleBackColor = true;
             this.switchToAdmin.Click += new System.EventHandler(this.switchToAdmin_Click);
             // 
+            // logOut
+            // 
+            this.logOut.Location = new System.Drawing.Point(897, 13);
+            this.logOut.Name = "logOut";
+            this.logOut.Size = new System.Drawing.Size(75, 23);
+            this.logOut.TabIndex = 33;
+            this.logOut.Text = "Log Out";
+            this.logOut.UseVisualStyleBackColor = true;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
+            // 
             // UserDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.Controls.Add(this.logOut);
             this.Controls.Add(this.switchToAdmin);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.button5);
@@ -466,5 +478,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button switchToAdmin;
+        private System.Windows.Forms.Button logOut;
     }
 }

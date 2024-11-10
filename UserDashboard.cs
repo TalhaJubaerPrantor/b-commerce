@@ -31,5 +31,12 @@ namespace Pts
             firstPage f=new firstPage();
             f.Show();
         }
+
+        private void logOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            firstPage f = new firstPage();
+            f.Show();
+        }
     }
 }
