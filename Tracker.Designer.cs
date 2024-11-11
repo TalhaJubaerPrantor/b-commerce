@@ -71,6 +71,8 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.switchToUser = new System.Windows.Forms.Button();
+            this.logOut = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -533,11 +535,33 @@
             this.label24.TabIndex = 16;
             this.label24.Text = "1";
             // 
+            // switchToUser
+            // 
+            this.switchToUser.Location = new System.Drawing.Point(12, 12);
+            this.switchToUser.Name = "switchToUser";
+            this.switchToUser.Size = new System.Drawing.Size(116, 23);
+            this.switchToUser.TabIndex = 24;
+            this.switchToUser.Text = "Switch To Admin";
+            this.switchToUser.UseVisualStyleBackColor = true;
+            this.switchToUser.Click += new System.EventHandler(this.switchToUser_Click);
+            // 
+            // logOut
+            // 
+            this.logOut.Location = new System.Drawing.Point(897, 12);
+            this.logOut.Name = "logOut";
+            this.logOut.Size = new System.Drawing.Size(75, 23);
+            this.logOut.TabIndex = 25;
+            this.logOut.Text = "LogOut";
+            this.logOut.UseVisualStyleBackColor = true;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
+            // 
             // Tracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.Controls.Add(this.logOut);
+            this.Controls.Add(this.switchToUser);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.button6);
@@ -616,5 +640,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button switchToUser;
+        private System.Windows.Forms.Button logOut;
     }
 }

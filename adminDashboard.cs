@@ -40,5 +40,33 @@ namespace Pts
         {
 
         }
+
+        private void deliveryLoaction1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeliveryLocation d = new DeliveryLocation();
+            d.Show();
+        }
+
+        private void deliveryLoaction2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeliveryLocation d = new DeliveryLocation();
+            d.Show();
+        }
+
+        private void deliveryLoaction3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeliveryLocation d = new DeliveryLocation();
+            d.Show();
+        }
+
+        private void deliveryLoaction4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeliveryLocation d = new DeliveryLocation();
+            d.Show();
+        }
     }
 }

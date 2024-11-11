@@ -52,6 +52,12 @@
     <Compile Include="adminDashboard.Designer.cs">
       <DependentUpon>adminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeliveryLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryLocation.Designer.cs">
+      <DependentUpon>DeliveryLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="firstPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="adminDashboard.resx">
       <DependentUpon>adminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryLocation.resx">
+      <DependentUpon>DeliveryLocation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="firstPage.resx">
       <DependentUpon>firstPage.cs</DependentUpon>

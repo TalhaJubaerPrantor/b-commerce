@@ -10,25 +10,16 @@ using System.Windows.Forms;
 
 namespace Pts
 {
-    public partial class Tracker : Form
+    public partial class DeliveryLocation : Form
     {
-        public Tracker()
+        public DeliveryLocation()
         {
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UserDashboard u=new UserDashboard();
-            u.Show();
-        }
 
-        private void seeLocation_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            MapTrack m = new MapTrack();
-            m.Show();
         }
 
         private void logOut_Click(object sender, EventArgs e)
@@ -38,11 +29,11 @@ namespace Pts
             f.Show();
         }
 
-        private void switchToUser_Click(object sender, EventArgs e)
+        private void backBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            firstPage f = new firstPage();
-            f.Show();
+            adminDashboard a = new adminDashboard();
+            a.Show();
         }
     }
 }
