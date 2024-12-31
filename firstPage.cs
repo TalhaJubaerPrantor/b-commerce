@@ -15,6 +15,7 @@ namespace Pts
         public firstPage()
         {
             InitializeComponent();
+            
         }
 
 
@@ -30,6 +31,11 @@ namespace Pts
             this.Hide();
             UserLogin u=new UserLogin();
             u.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
