@@ -54,7 +54,7 @@
             this.t_confirm.BackColor = System.Drawing.Color.Black;
             this.t_confirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.t_confirm.ForeColor = System.Drawing.Color.Transparent;
-            this.t_confirm.Location = new System.Drawing.Point(666, 212);
+            this.t_confirm.Location = new System.Drawing.Point(666, 154);
             this.t_confirm.Name = "t_confirm";
             this.t_confirm.Size = new System.Drawing.Size(139, 31);
             this.t_confirm.TabIndex = 7;
@@ -66,7 +66,7 @@
             this.t_payment.BackColor = System.Drawing.Color.Black;
             this.t_payment.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.t_payment.ForeColor = System.Drawing.Color.Transparent;
-            this.t_payment.Location = new System.Drawing.Point(674, 156);
+            this.t_payment.Location = new System.Drawing.Point(674, 208);
             this.t_payment.Name = "t_payment";
             this.t_payment.Size = new System.Drawing.Size(121, 31);
             this.t_payment.TabIndex = 8;
